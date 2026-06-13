@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { articles } from "@/app/data/articles";
-import { Barcode, Todo } from "@/app/components/shared";
+import { Barcode } from "@/app/components/shared";
 
 export default function Home() {
   return (
@@ -93,22 +93,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* REFLECTION */}
-        <section id="reflection">
-          <div className="shelf-strip">
-            <span className="sku">Exit Survey</span>
-            <h2>Reflection</h2>
-          </div>
-          <div className="reflect-card">
-            <Todo>
-              Write your own reflection on the scrapbook and the course. What
-              did following economic news for a semester teach you? Which entry
-              changed how you think? Be specific — generic reflections read as
-              filler.
-            </Todo>
-            <p>[Your reflection goes here.]</p>
-          </div>
-        </section>
       </div>
 
       {/* FOOTER */}
