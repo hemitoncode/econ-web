@@ -90,17 +90,13 @@ function EntryContent({
   if (id === "entry1") return <Entry1 />;
   if (id === "entry2") return <Entry2 />;
   if (id === "entry3") return <Entry3 />;
-
-  // Placeholder entries
-  const todoMap: Record<string, string> = {
-    entry4: "Same structure as Entry 1.",
-  };
+  if (id === "entry4") return <Entry4 />;
 
   return (
     <PlaceholderEntry
       id={id}
       number={article.number}
-      todoText={todoMap[id] ?? "Content coming soon."}
+      todoText="Content coming soon."
     />
   );
 }
@@ -544,6 +540,62 @@ function Entry3() {
           A legal limit on a price or on increases in a price, which holds the
           price below its equilibrium level.
         </dd>
+      </KeyWordFacts>
+    </section>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Entry 4 - in progress                                                */
+/* ------------------------------------------------------------------ */
+
+function Entry4() {
+  return (
+    <section className="entry" id="entry4">
+      <EntryTag
+        number="04"
+        title="[Article title - to be added]"
+        skuLines={[
+          "SRC: [Source 4]",
+          "PUB: [date]",
+          "ENTRY: [date]",
+          "CH: -",
+          "LINK: [paste article URL]",
+        ]}
+      />
+      <Todo>Same structure as Entry 1.</Todo>
+
+      <h3>Summary</h3>
+      <p>[6-7 lines]</p>
+
+      <h3>Economic Concepts</h3>
+      <p>
+        [7-8 lines with at least four <span className="kw">key words</span>{" "}
+        bolded]
+      </p>
+
+      <div className="imgrow">
+        <div className="imgslot" style={{ aspectRatio: "auto", padding: 0 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/entries/entry4/grocery-prices.png"
+            alt="Person shopping at bulk grocery store with tiered pricing"
+            style={{ width: "100%", height: "auto", objectFit: "contain" }}
+          />
+        </div>
+        <div className="imgslot" style={{ aspectRatio: "auto", padding: 0 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/entries/entry4/parliament.png"
+            alt="Canadian Parliament buildings"
+            style={{ width: "100%", height: "auto", objectFit: "contain" }}
+          />
+        </div>
+      </div>
+
+      <KeyWordFacts subtitle="Full chapter list · definitions required">
+        <dt>[Term]</dt>
+        <dd>[Definition]</dd>
       </KeyWordFacts>
     </section>
   );
