@@ -65,18 +65,15 @@ export function KeyWordFacts({
   children: React.ReactNode;
 }) {
   return (
-    <details className="facts">
-      <summary>
+    <div className="facts">
+      <div className="facts-header">
         <span className="ft">Key Word Facts</span>
-        <span className="ft-toggle">
-          VIEW LIST <span className="ft-toggle-arrow">▾</span>
-        </span>
         <span className="fs">{subtitle}</span>
-      </summary>
+      </div>
       <div className="facts-body">
         <dl className="defs">{children}</dl>
       </div>
-    </details>
+    </div>
   );
 }
 

@@ -172,21 +172,10 @@ function Entry1() {
       </div>
 
       <KeyWordFacts subtitle="Chapter 1 · full list with definitions">
-        <dt>Economics</dt>
-        <dd>
-          The study of the decisions a society makes about the use of scarce
-          resources.
-        </dd>
         <dt>Inputs</dt>
         <dd>
           Resources such as labour, capital equipment, and natural resources,
           that are used to produce goods and services.
-        </dd>
-        <dt>Labour</dt>
-        <dd>
-          The largest single productive input available to any economy. Labour
-          includes all the productive mental and physical talents of the people
-          in a society.
         </dd>
         <dt>Capital</dt>
         <dd>
@@ -200,11 +189,6 @@ function Entry1() {
           A measure of the prosperity of a society, usually expressed in terms
           of the volume of good consumer goods and services consumed per
           household or person per year.
-        </dd>
-        <dt>Land</dt>
-        <dd>
-          All the natural resources available to a society&rsquo;s economy as
-          economic inputs.
         </dd>
         <dt>Scarcity</dt>
         <dd>
@@ -223,15 +207,10 @@ function Entry1() {
           A curve that shows the economy&rsquo;s potential output, assuming
           economic inputs are fully used.
         </dd>
-        <dt>Effectiveness</dt>
+        <dt>GDP</dt>
         <dd>
-          A measure of how well an economy performs in terms of producing goods
-          and services that are needed and wanted.
-        </dd>
-        <dt>Efficiency</dt>
-        <dd>
-          A measure of how well an economy performs in terms of producing high
-          volumes of goods and services at a low cost per item.
+          A measure of the value of goods and services produced and incomes
+          earned in a country in a year.
         </dd>
       </KeyWordFacts>
     </section>
@@ -315,10 +294,10 @@ function Entry2() {
           buyers and sellers of goods, services and resources in an
           uncoordinated manner.
         </dd>
-        <dt>Traditional system</dt>
+        <dt>Command system</dt>
         <dd>
-          An economic system in which the custom or tradition of the society
-          provides the answers to the three economic questions.
+          An economic system in which economic decisions are made mainly by the
+          government in a centralized manner.
         </dd>
         <dt>Profits</dt>
         <dd>
@@ -327,95 +306,15 @@ function Entry2() {
           taxes have been paid) for dividends to shareholders or for
           reinvestment in the firm.
         </dd>
-        <dt>Market power</dt>
-        <dd>
-          The ability to raise one&rsquo;s prices. Usually associated with a
-          dominant or a monopoly position in a market.
-        </dd>
-        <dt>Command system</dt>
-        <dd>
-          An economic system in which economic decisions are made mainly by the
-          government in a centralized manner.
-        </dd>
-        <dt>Subsidies</dt>
-        <dd>
-          Payments by the government to lower the cost of a service in order to
-          reduce the cost to the user of the service.
-        </dd>
-        <dt>Gross Domestic Product (GDP)</dt>
-        <dd>
-          A measure of the value of goods and services produced and incomes
-          earned in a country in a year.
-        </dd>
         <dt>Sole proprietorship</dt>
         <dd>
           A business firm owned (and usually managed) by a single person who
           bears full legal liability for the firm&rsquo;s debts.
         </dd>
-        <dt>Partnership</dt>
+        <dt>Subsidies</dt>
         <dd>
-          A business firm owned by two or more persons with each person bearing
-          full legal liability for the firm&rsquo;s debts.
-        </dd>
-        <dt>General Partner</dt>
-        <dd>
-          Partners who take an active part in the management of the business
-          and who have unlimited personal liability for its debts.
-        </dd>
-        <dt>Limited Partner</dt>
-        <dd>
-          A partner who invests in a business but takes no active part in the
-          management of it, and whose liability is limited to the amount
-          invested.
-        </dd>
-        <dt>Corporation</dt>
-        <dd>
-          A business firm that is a separate legal entity from its owners, or
-          shareholders, each of whose liability is limited to the amount of his
-          or her investment in the firm.
-        </dd>
-        <dt>Shareholders</dt>
-        <dd>
-          The owners of shares (stocks) in a corporation. Shareholders may or
-          may not have voting rights and their liability is limited to the
-          amount invested.
-        </dd>
-        <dt>Board of Directors</dt>
-        <dd>
-          A group of people elected by the shareholders of a corporation to
-          provide direction to the management of the corporation.
-        </dd>
-        <dt>Private Corporation</dt>
-        <dd>
-          A corporation that has fewer than 50 shareholders and is not traded
-          on stock market.
-        </dd>
-        <dt>Public Corporation</dt>
-        <dd>
-          A corporation that has 50 or more shareholders and is traded on a
-          stock market.
-        </dd>
-        <dt>Payroll taxes</dt>
-        <dd>
-          Taxes paid by employees based on the number of their employees or the
-          amount of their payroll.
-        </dd>
-        <dt>Proxies</dt>
-        <dd>
-          Legal instruments that allow a shareholder&rsquo;s right to vote at
-          shareholder&rsquo;s meetings to be delegated to another person either
-          with or without specific instructions as to how that vote will be
-          exercised.
-        </dd>
-        <dt>Crown Corporations</dt>
-        <dd>
-          Corporations owned by a government and that are ultimately
-          responsible, through a cabinet minister to that government.
-        </dd>
-        <dt>Privatization</dt>
-        <dd>
-          The process of selling government enterprises (usually crown
-          corporations) to private interests.
+          Payments by the government to lower the cost of a service in order to
+          reduce the cost to the user of the service.
         </dd>
       </KeyWordFacts>
     </section>
@@ -488,41 +387,8 @@ function Entry3() {
       </div>
 
       <KeyWordFacts subtitle="Chapters 4–7 · full list with definitions">
-        <dt>Demand</dt>
-        <dd>
-          The entire relationship between the various possible prices of a
-          product or service and the quantity demanded at each price, expressed
-          through either a schedule or graph.
-        </dd>
-        <dt>Complementary good</dt>
-        <dd>A product that is bought in combination with another product.</dd>
-        <dt>Elastic Demand</dt>
-        <dd>
-          The term used to describe demand if a price increase causes a
-          reduction in total sales revenue.
-        </dd>
-        <dt>Inelastic Demand</dt>
-        <dd>
-          The term used to describe demand if a price increase causes an
-          increase in total sales revenue.
-        </dd>
-        <dt>Coefficient of Elasticity</dt>
-        <dd>
-          The percentage change in quantity demanded that results from a 1
-          percent change in price.
-        </dd>
         <dt>Supply curve</dt>
         <dd>A graphical representation of a supply schedule.</dd>
-        <dt>Elastic supply</dt>
-        <dd>
-          A situation in which the quantity supplied increases readily when the
-          price increases.
-        </dd>
-        <dt>Inelastic supply</dt>
-        <dd>
-          A situation in which quantity supplied does not increase readily when
-          the price increases.
-        </dd>
         <dt>Equilibrium price</dt>
         <dd>
           A price determined in the marketplace by the interaction of supply and
@@ -530,15 +396,27 @@ function Entry3() {
         </dd>
         <dt>Equilibrium quantity</dt>
         <dd>The quantity sold (bought) at the equilibrium price.</dd>
-        <dt>Price support</dt>
+        <dt>Elastic Demand</dt>
         <dd>
-          An artificially high price held above the equilibrium level by the
-          government.
+          The term used to describe demand if a price increase causes a
+          reduction in total sales revenue.
         </dd>
-        <dt>Price control</dt>
+        <dt>Concentrated industry</dt>
         <dd>
-          A legal limit on a price or on increases in a price, which holds the
-          price below its equilibrium level.
+          An industry that is dominated by a few large firms and is not easily
+          entered by new competitors.
+        </dd>
+        <dt>Market power</dt>
+        <dd>
+          The ability to raise one&rsquo;s prices, usually associated with a
+          dominant or monopolistic position in the market.
+        </dd>
+        <dt>Price-taker</dt>
+        <dd>
+          Term used to describe the position of the individual small firm in a
+          competitive industry, which is unable to influence the price of its
+          product and is forced to accept (take) whatever price is determined
+          in the market.
         </dd>
       </KeyWordFacts>
     </section>
@@ -617,123 +495,30 @@ function Entry4() {
       </div>
 
       <KeyWordFacts subtitle="Chapters 7–9 · full list with definitions">
-        <dt>Market structure</dt>
-        <dd>
-          Term used to describe the organization and nature of a market or an
-          industry, particularly whether it is competitive or concentrated in
-          nature.
-        </dd>
-        <dt>Competitive industry</dt>
-        <dd>
-          An industry that consists of many small firms and is easily entered
-          by new competitors.
-        </dd>
         <dt>Concentrated industry</dt>
         <dd>
           An industry that is dominated by a few large firms and is not easily
           entered by new competitors.
-        </dd>
-        <dt>Price-maker</dt>
-        <dd>
-          Term used to describe the position of the dominant firm(s) in a
-          concentrated industry, which can influence the price of the product.
-        </dd>
-        <dt>Market power</dt>
-        <dd>
-          The ability to raise one&rsquo;s prices, usually associated with a
-          dominant or monopolistic position in the market.
-        </dd>
-        <dt>Price-taker</dt>
-        <dd>
-          Term used to describe the position of the individual small firm in a
-          competitive industry, which is unable to influence the price of its
-          product and is forced to accept (take) whatever price is determined
-          in the market.
-        </dd>
-        <dt>Perfect competition</dt>
-        <dd>
-          A term describing industries that consist of a large number of small
-          firms where entry to the industry by new firms is easy, and where all
-          firms in the industry sell identical products.
-        </dd>
-        <dt>Perfectly elastic demand</dt>
-        <dd>
-          A situation in which any price increase above the market price will
-          cause a firm&rsquo;s revenue to fall to zero; represented by a
-          horizontal demand curve.
-        </dd>
-        <dt>Monopolistic competition</dt>
-        <dd>
-          A term describing industries that consist of many small firms, where
-          entry to the industry by new firms is easy, and where the products or
-          services of individual firms, while basically similar, are
-          differentiated from each other to a degree.
-        </dd>
-        <dt>Product differentiation</dt>
-        <dd>
-          Attempts by individual firms to distinguish their products or
-          services from those of their competitors.
         </dd>
         <dt>Oligopoly</dt>
         <dd>
           A situation in which four or fewer firms account for at least half of
           the sales of an industry.
         </dd>
-        <dt>Monopoly</dt>
+        <dt>Market power</dt>
         <dd>
-          A situation in which there is only one seller of a particular good or
-          service.
+          The ability to raise one&rsquo;s prices, usually associated with a
+          dominant or monopolistic position in the market.
         </dd>
-        <dt>Price-fixing</dt>
+        <dt>Industrial concentration</dt>
         <dd>
-          Agreements among oligopolists to raise their prices above levels that
-          would prevail in a competitive situation.
-        </dd>
-        <dt>Administered prices</dt>
-        <dd>
-          A term used to describe prices that have been fixed by sellers. See
-          price-fixing.
-        </dd>
-        <dt>Price leadership</dt>
-        <dd>
-          A technique of price-fixing in which one firm (the price leader) sets
-          its price and the rest of the firms in the industry follow suit.
-        </dd>
-        <dt>Cartel</dt>
-        <dd>
-          A formal agreement among producers to coordinate their price and
-          output decisions for the purpose of earning monopoly profits.
-        </dd>
-        <dt>Non-price competition</dt>
-        <dd>
-          Competition between sellers based not on price but rather on factors
-          such as product differentiation and advertising.
-        </dd>
-        <dt>Natural monopoly</dt>
-        <dd>
-          An industry, such as public utilities, that by its nature lends
-          itself to a monopolistic form of organization.
+          The degree to which an industry is dominated by a few firms.
         </dd>
         <dt>Laissez-faire</dt>
         <dd>
           The doctrine or philosophy that, from the viewpoint of the public
           interest, it is neither necessary nor beneficial for governments to
           intervene in the operation of the economy.
-        </dd>
-        <dt>Marketing boards</dt>
-        <dd>
-          Government-sponsored organizations of farmers that support farm
-          incomes by restricting the supply of produce, usually through a
-          system of quotas on individual farmers.
-        </dd>
-        <dt>Industrial concentration</dt>
-        <dd>
-          The degree to which an industry is dominated by a few firms.
-        </dd>
-        <dt>Economies of scale</dt>
-        <dd>
-          Lower production costs per unit made possible by higher volumes of
-          production that permit the achievement of increased efficiencies.
         </dd>
         <dt>Globalization</dt>
         <dd>
