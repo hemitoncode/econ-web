@@ -135,25 +135,25 @@ section { padding: 3rem 0; }
   box-shadow: 0 14px 30px rgba(20,22,26,.14);
 }
 .receipt .store {
-  text-align: center; font-weight: bold; letter-spacing: .18em; font-size: .95rem;
+  text-align: center; font-weight: bold; letter-spacing: .18em; font-size: 1.15rem;
 }
 .receipt .store small {
-  display: block; font-weight: normal; font-size: .68rem; letter-spacing: .12em; margin-top: .2rem;
+  display: block; font-weight: normal; font-size: .82rem; letter-spacing: .12em; margin-top: .2rem;
 }
 .receipt hr { border: none; border-top: 1px dashed var(--ink); margin: 1.2rem 0; }
 .receipt .line {
   display: grid; grid-template-columns: auto 1fr auto; gap: .8rem;
-  font-size: 1rem; padding: .6rem 0; align-items: baseline;
+  font-size: 1.15rem; padding: .6rem 0; align-items: baseline;
 }
 .receipt .line a { color: var(--ink); text-decoration: none; border-bottom: 1px dashed var(--bill-green); }
 .receipt .line a:hover { background: var(--tag-yellow); }
 .receipt .line .no { font-weight: bold; }
 .receipt .line .ch { font-weight: bold; white-space: nowrap; }
-.receipt .meta { font-size: .8rem; color: #555; grid-column: 2; }
+.receipt .meta { font-size: .95rem; color: #555; grid-column: 2; }
 .receipt .total {
-  display: flex; justify-content: space-between; font-weight: bold; font-size: 1.05rem; letter-spacing: .06em;
+  display: flex; justify-content: space-between; font-weight: bold; font-size: 1.2rem; letter-spacing: .06em;
 }
-.receipt .thanks { text-align: center; font-size: .82rem; letter-spacing: .2em; margin-top: 1.2rem; }
+.receipt .thanks { text-align: center; font-size: .95rem; letter-spacing: .2em; margin-top: 1.2rem; }
 .receipt .barcode { margin-top: .9rem; }
 
 /* ---------- ENTRY ---------- */
