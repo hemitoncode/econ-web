@@ -13,14 +13,6 @@ export default function Home() {
       {/* COVER */}
       <header id="cover">
         <div className="wrap">
-          <div className="aisle">
-            <span>
-              <span className="num">Aisle 11</span>&nbsp; Economics — CIE3M
-            </span>
-            <span>Teacher: B. Paschalidis</span>
-            <span>Semester 2 · 2026</span>
-          </div>
-
           <div className="shelf-tag">
             <h1>
               The Price of
