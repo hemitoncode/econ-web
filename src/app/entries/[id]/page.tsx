@@ -87,14 +87,12 @@ function EntryContent({
   id: string;
   article: (typeof articles)[number];
 }) {
+  if (id === "entry1") return <Entry1 />;
   if (id === "entry2") return <Entry2 />;
   if (id === "entry3") return <Entry3 />;
 
   // Placeholder entries
   const todoMap: Record<string, string> = {
-    entry1:
-      "Paste your Entry 1 summary (6–7 lines), Economic Concepts (7–8 lines, ≥4 key words wrapped in <span class=\"kw\">), two images, and the chapter key-word list.",
-    entry2: "Same structure as Entry 1.",
     entry4: "Same structure as Entry 1.",
   };
 
@@ -104,6 +102,131 @@ function EntryContent({
       number={article.number}
       todoText={todoMap[id] ?? "Content coming soon."}
     />
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Entry 1 — complete                                                   */
+/* ------------------------------------------------------------------ */
+
+function Entry1() {
+  return (
+    <section className="entry" id="entry1">
+      <EntryTag
+        number="01"
+        title="Canada's GDP falls 0.6% in Q4 as U.S. trade tensions stifle new investment"
+        skuLines={[
+          "SRC: CBC News",
+          "PUB: Feb 20, 2026",
+          "ENTRY: Mar 3, 2026",
+          "CH: 1",
+          "LINK: [paste the CBC article URL here]",
+        ]}
+      />
+
+      <h3>Summary</h3>
+      <p>
+        The Canadian Gross Domestic Product (GDP), a metric that measures total
+        goods and services produced, decreased in the fourth quarter (Q4) by an
+        annualized rate of 0.6 percent, annualized meaning it is scaled to a
+        yearly basis. Analysts had forecasted little to no growth in Q4, so this
+        signals an unexpected worsening of the Canadian economy. The main culprit
+        was a lack of production of new goods, leading to a lower number of
+        products being outputted into economy. Worsening trade relations with US
+        left companies reluctant to invest in new production for fear that the
+        goods they manufactured would not sell.
+      </p>
+
+      <h3>Economic Concepts</h3>
+      <p>
+        This article connects directly to Chapter 1. Canada&rsquo;s declining{" "}
+        <span className="kw">GDP</span> is a direct result of reduced production
+        of new goods, which shows how <span className="kw">scarcity</span> worsens
+        when <span className="kw">inputs</span> are not being used efficiently.
+        Companies held back <span className="kw">capital</span> investment in
+        machinery and equipment out of fear that the goods they made would not
+        sell due to trade tensions with the US. This drop in investment lowers{" "}
+        <span className="kw">productivity</span>, as fewer goods are produced per
+        worker, meaning Canada moves inside its{" "}
+        <span className="kw">Production Possibilities Curve</span>. The long-term
+        impact threatens Canada&rsquo;s{" "}
+        <span className="kw">standard of living</span>, since lower production
+        means fewer goods and services available to households. The{" "}
+        <span className="kw">opportunity cost</span> of not investing was the
+        economic growth Canada gave up by keeping production low.
+      </p>
+
+      <ImageRow
+        labels={[
+          "IMAGE SLOT — e.g., GDP chart / quarterly output graph",
+          "IMAGE SLOT — e.g., Canada–US trade / factory photo",
+        ]}
+      />
+
+      <KeyWordFacts subtitle="Chapter 1 · full list with definitions">
+        <dt>Economics</dt>
+        <dd>
+          The study of the decisions a society makes about the use of scarce
+          resources.
+        </dd>
+        <dt>Inputs</dt>
+        <dd>
+          Resources such as labour, capital equipment, and natural resources,
+          that are used to produce goods and services.
+        </dd>
+        <dt>Labour</dt>
+        <dd>
+          The largest single productive input available to any economy. Labour
+          includes all the productive mental and physical talents of the people
+          in a society.
+        </dd>
+        <dt>Capital</dt>
+        <dd>
+          The tools, equipment, machinery, buildings and factories used in the
+          production of goods and services.
+        </dd>
+        <dt>Productivity</dt>
+        <dd>Output per worker per hour. It is a measure of efficiency.</dd>
+        <dt>Standard of Living</dt>
+        <dd>
+          A measure of the prosperity of a society, usually expressed in terms
+          of the volume of good consumer goods and services consumed per
+          household or person per year.
+        </dd>
+        <dt>Land</dt>
+        <dd>
+          All the natural resources available to a society&rsquo;s economy as
+          economic inputs.
+        </dd>
+        <dt>Scarcity</dt>
+        <dd>
+          The fundamental economic problem that occurs because people&rsquo;s
+          wants and needs are unlimited but are limited to those economic
+          resources that are available to satisfy them.
+        </dd>
+        <dt>Opportunity Cost</dt>
+        <dd>
+          The economic cost of producing something is the foregone opportunity
+          of producing something else that could have been produced with those
+          same economic inputs.
+        </dd>
+        <dt>Production Possibilities Curve</dt>
+        <dd>
+          A curve that shows the economy&rsquo;s potential output, assuming
+          economic inputs are fully used.
+        </dd>
+        <dt>Effectiveness</dt>
+        <dd>
+          A measure of how well an economy performs in terms of producing goods
+          and services that are needed and wanted.
+        </dd>
+        <dt>Efficiency</dt>
+        <dd>
+          A measure of how well an economy performs in terms of producing high
+          volumes of goods and services at a low cost per item.
+        </dd>
+      </KeyWordFacts>
+    </section>
   );
 }
 
@@ -345,10 +468,57 @@ function Entry3() {
       />
 
       <KeyWordFacts subtitle="Chapters 4–7 · full list with definitions">
-        <dt>[Paste the full key-word list from chapters 4, 5, 6, 7]</dt>
+        <dt>Demand</dt>
         <dd>
-          [The assignment requires the entire list with definitions — from your
-          textbook.]
+          The entire relationship between the various possible prices of a
+          product or service and the quantity demanded at each price, expressed
+          through either a schedule or graph.
+        </dd>
+        <dt>Complementary good</dt>
+        <dd>A product that is bought in combination with another product.</dd>
+        <dt>Elastic Demand</dt>
+        <dd>
+          The term used to describe demand if a price increase causes a
+          reduction in total sales revenue.
+        </dd>
+        <dt>Inelastic Demand</dt>
+        <dd>
+          The term used to describe demand if a price increase causes an
+          increase in total sales revenue.
+        </dd>
+        <dt>Coefficient of Elasticity</dt>
+        <dd>
+          The percentage change in quantity demanded that results from a 1
+          percent change in price.
+        </dd>
+        <dt>Supply curve</dt>
+        <dd>A graphical representation of a supply schedule.</dd>
+        <dt>Elastic supply</dt>
+        <dd>
+          A situation in which the quantity supplied increases readily when the
+          price increases.
+        </dd>
+        <dt>Inelastic supply</dt>
+        <dd>
+          A situation in which quantity supplied does not increase readily when
+          the price increases.
+        </dd>
+        <dt>Equilibrium price</dt>
+        <dd>
+          A price determined in the marketplace by the interaction of supply and
+          demand. The price where there is no surplus or shortage.
+        </dd>
+        <dt>Equilibrium quantity</dt>
+        <dd>The quantity sold (bought) at the equilibrium price.</dd>
+        <dt>Price support</dt>
+        <dd>
+          An artificially high price held above the equilibrium level by the
+          government.
+        </dd>
+        <dt>Price control</dt>
+        <dd>
+          A legal limit on a price or on increases in a price, which holds the
+          price below its equilibrium level.
         </dd>
       </KeyWordFacts>
     </section>
