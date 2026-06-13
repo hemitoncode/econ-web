@@ -24,7 +24,7 @@ export async function generateMetadata({
   const article = articles.find((a) => a.id === id);
   if (!article) return {};
   return {
-    title: `${article.title} — The Price of Everything`,
+    title: `${article.title} - The Price of Everything`,
     description: `Entry ${article.number}: ${article.title} · ${article.source} · ${article.tocDate}`,
   };
 }
@@ -106,7 +106,7 @@ function EntryContent({
 }
 
 /* ------------------------------------------------------------------ */
-/* Entry 1 — complete                                                   */
+/* Entry 1 - complete                                                   */
 /* ------------------------------------------------------------------ */
 
 function Entry1() {
@@ -158,8 +158,8 @@ function Entry1() {
 
       <ImageRow
         labels={[
-          "IMAGE SLOT — e.g., GDP chart / quarterly output graph",
-          "IMAGE SLOT — e.g., Canada–US trade / factory photo",
+          "IMAGE SLOT - e.g., GDP chart / quarterly output graph",
+          "IMAGE SLOT - e.g., Canada-US trade / factory photo",
         ]}
       />
 
@@ -231,7 +231,7 @@ function Entry1() {
 }
 
 /* ------------------------------------------------------------------ */
-/* Entry 2 — complete                                                   */
+/* Entry 2 - complete                                                   */
 /* ------------------------------------------------------------------ */
 
 function Entry2() {
@@ -415,7 +415,7 @@ function Entry2() {
 }
 
 /* ------------------------------------------------------------------ */
-/* Entry 3 — complete                                                   */
+/* Entry 3 - complete                                                   */
 /* ------------------------------------------------------------------ */
 
 function Entry3() {
@@ -451,7 +451,7 @@ function Entry3() {
         supply). This raised the <span className="kw">equilibrium price</span>{" "}
         and lowered the <span className="kw">equilibrium quantity</span> sold.
         Stores did not pass the full amount of the tax on to customers, which
-        suggests demand is relatively <span className="kw">elastic</span> — if
+        suggests demand is relatively <span className="kw">elastic</span>: if
         prices rise too much, shoppers switch to substitute goods or stop buying
         outright. The study only looked at seven big retailers, which is a{" "}
         <span className="kw">concentrated industry</span>. These large firms
@@ -462,8 +462,8 @@ function Entry3() {
 
       <ImageRow
         labels={[
-          "IMAGE SLOT — e.g., supply/demand diagram, leftward supply shift",
-          "IMAGE SLOT — e.g., grocery prices / Canada–US trade photo",
+          "IMAGE SLOT - e.g., supply/demand diagram, leftward supply shift",
+          "IMAGE SLOT - e.g., grocery prices / Canada-US trade photo",
         ]}
       />
 

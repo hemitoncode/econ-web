@@ -20,7 +20,7 @@ export default function Home() {
               <span className="hl">Everything</span>
             </h1>
             <p className="sub">
-              An e-scrapbook of tariffs, markets, and money in Canada —
+              An e-scrapbook of tariffs, markets, and money in Canada -
               tracked like a grocery shelf, February to June 2026.
             </p>
           </div>

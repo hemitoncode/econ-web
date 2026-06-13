@@ -36,8 +36,8 @@ export const articles: ArticleMeta[] = [
   {
     id: "entry4",
     number: "04",
-    title: "[Article title — to be added]",
-    tocChapters: "CH —",
+    title: "[Article title - to be added]",
+    tocChapters: "CH -",
     source: "[Source 4]",
     tocDate: "[date]",
   },

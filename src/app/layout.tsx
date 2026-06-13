@@ -9,9 +9,9 @@ const archivo = Archivo_Black({
 });
 
 export const metadata: Metadata = {
-  title: "The Price of Everything — Hemit Patel — CIE3M e-Scrapbook",
+  title: "The Price of Everything - Hemit Patel - CIE3M e-Scrapbook",
   description:
-    "An e-scrapbook of tariffs, markets, and money in Canada — tracked like a grocery shelf, February to June 2026.",
+    "An e-scrapbook of tariffs, markets, and money in Canada - tracked like a grocery shelf, February to June 2026.",
 };
 
 export default function RootLayout({
